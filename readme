@@ -1,0 +1,79 @@
+📌 File & Folder Explanation (Simple)
+
+Run this to start everything.
+
+📊 dashboard.py
+
+➡️ The visual dashboard that shows:
+
+Sentiment charts
+
+Trends
+
+Mood changes
+
+➕ add_data_vector_db.py
+
+➡️ Stores data in a vector database for fast searching.
+
+📈 review_sentiment_trend_spike.py
+
+➡️ Detects sudden emotional spikes (anger, happiness, trending topics).
+
+🧪 data_analysis/ Folder
+
+
+File	Purpose
+cleaning.py	Cleans messy data
+sentiment.py	Detects happy/sad emotions
+topic_modeling_2.py	Finds topics like tech, food, movies
+category.py	Categorizes data
+reduce_data.py	Reduces large data
+merged_data.py	Combines multiple datasets
+
+🌍 external_api/ Folder
+
+This folder collects real-world data from the internet
+
+reddit_api.py → Reddit posts
+
+news.py → News articles
+
+rapid_api.py → Reviews from websites
+
+sentiment_news_spike.py → Detects emotional news spikes
+
+sentiment_reddit_spike.py → Detects Reddit sentiment spikes
+
+🔔 notification/notification.py
+
+➡️ Sends alerts when something important happens.
+
+📁 final_data/
+
+➡️ Stores cleaned and final datasets in CSV/Excel format.
+
+🧠 consumer_sentiment_faiss/
+
+➡️ A FAISS vector database for fast sentiment search.
+
+⚙️ requirements.txt
+
+➡️ List of Python libraries needed to run the project.
+
+🔐 .env
+
+➡️ Stores secret API keys 
+
+🚀 How to Run the Project
+1️⃣ Install Dependencies
+pip install -r requirements.txt
+
+2️⃣ Run the Project
+streamlit run dashboard.py
+
+api files 
+
+1. news_api.py
+2. reddit.py 
+3. rapid.py
